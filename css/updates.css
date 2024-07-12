@@ -18,17 +18,7 @@
     display: block;
 }
 
-@media screen and (max-width: 995px) {
-    .mobile-view {
-        display: block;
-    }
-
-    .desktop-view {
-        display: none;
-    }
     
-}
-
 
 /*  for social icons in navbar */
 
@@ -44,12 +34,19 @@
     font-size: 1.3rem;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1000px) {
     .navbar-social-icons {
         display: none;
     }
     .social-icons-mobile {
         font-size: 1.3rem;
+    }
+    .mobile-view {
+        display: block;
+    }
+
+    .desktop-view {
+        display: none;
     }
 }
 

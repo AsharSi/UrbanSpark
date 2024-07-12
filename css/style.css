@@ -1650,7 +1650,7 @@ header.header-mobile {
 }
 
 header.header-mobile.header-light {
-	background: #fff;
+	background: #18191B;
 }
 
 header.smaller.header-scroll:not(.autoshow) {
@@ -2928,8 +2928,8 @@ header.smaller.header-scroll:not(.autoshow) {
 
 
 #contact_form input[type=submit].btn-line {
-	background: none;
 	padding: 8px 20px;
+	background-color: #fff;
 }
 
 #contact_form input[type=submit].btn-line:hover {
@@ -3426,6 +3426,13 @@ a.btn-line {
 .de_light a.btn-line {
 	color: #111;
 	border: solid 1px #dddddd;
+	border-radius: 5px;
+}
+
+.de_light #section-contact input, .de_light #section-contact textarea {
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+
 }
 
 .btn-line,
