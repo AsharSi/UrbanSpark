@@ -7576,6 +7576,8 @@ span.overlay.s2:hover img {
 .picframe img {
 	position: relative;
 	width: 100%;
+	
+	aspect-ratio: 4 / 3;
 }
 
 .picframe:hover .overlay {

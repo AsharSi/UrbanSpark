@@ -2271,7 +2271,6 @@ header.smaller.header-scroll:not(.autoshow) {
 	color: #ffffff;
 	overflow: hidden;
 	position: relative;
-	height: 300px;
 }
 
 .de-post-poster.d-portrait {
@@ -7326,6 +7325,7 @@ a:hover,
 .picframe {
 	position: relative;
 	overflow: hidden;
+	aspect-ratio: 4 / 3;
 }
 
 .de_large-portfolio {
